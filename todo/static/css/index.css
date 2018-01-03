@@ -1,0 +1,6 @@
+.todo {
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 400px) 1fr;
+    grid-template-rows: 70px auto auto;
+    grid-row-gap: 20px;
+}

@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    background: gray url('../images/bear.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+}
+
+body.show_overlay .overlay {
+    opacity: .8;
+}
+
+body.show_overlay [class^='form'] {
+    transform: scale(1.1);
+}
+
+body.show_overlay input[type='text'] {
+    padding: 30px;
+    font-size: 20px;
+}

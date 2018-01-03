@@ -1,0 +1,31 @@
+{
+  "name": "docker_django_react",
+  "version": "1.0.0",
+  "description": "Dockerized Reacted Django App",
+  "main": "index.js",
+  "author": "Usef",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.14.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-bundle-tracker": "^0.2.1",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

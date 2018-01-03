@@ -1,0 +1,7 @@
+{% load render_bundle from webpack_loader %}
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<div class="overlay"></div>
+<div id="app"></div>
+{% render_bundle 'main' %}
